@@ -16,6 +16,7 @@ const game = () => {
   }
   btn.textContent = "Play new game";
   displayWinner();
+  winners = [];
 };
 
 // Play the round
